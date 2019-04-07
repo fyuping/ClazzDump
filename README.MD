@@ -1,5 +1,5 @@
 #### 使用方法
-java -jar "-javaagent:F:\java development\idea workspace\saveclassfile\target\instrument-saveclassfile-1.0-SNAPSHOT.jar=-d=D:/server-tool/tmp/bytecode/exported/;-f2=org/fyp;-r" xx.jar
+java -jar "-javaagent:F:\ClazzDump-1.0.jar=-d=D:/tmp/bytecode/exported/;-f2=org/fyp;-r" xx.jar
 
 　　-d: 设置导出文件的输出目录；
 
